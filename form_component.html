@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+
+    <title>Adventure time: Dashboard</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/adventure-time-theme.css" rel="stylesheet">
+    <link href="css/adventure-time-theme-responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body class="bg-df">
+
+   <nav class="navbar navbar-default black-bg">
+        <div class="container-fluid">
+	       	
+	       	<!-- TOGGLE NAVIGATION -->
+	        <div>
+	            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		            <span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+	            </button>
+	            <a class="navbar-brand" href="#">ADVENTURE TIME: DASHBOARD</a>
+	            <ul class="hidden-xs nav pull-right top-menu">
+	              <li><a class="logout" href="login.html">Logout</a></li>
+		        </ul>
+          	</div>
+        </div> <!--container-fluid -->
+    </nav>
+    
+    <!-- SIDEBAR MENU -->
+    <header id="bs-example-navbar-collapse-1" class="mg-t-neg">
+      <div class="container-fluid">
+        <div class="row">
+
+          <!-- COL-MD-2 -->
+          <div class="col-xs-hidden col-md-2 black-bg height">
+
+            <!-- LOGO -->
+            <div class="text-center p-t-10">
+	            <a href="profile.html"><img src="img/profile_avatar.png" class="img-circle imgpf" width="60"></a>
+	           </div>
+
+             <!-- SIDER BAR -->
+            <h5 class="text-center fa-inverse">Bonnibel Bubblegum</h5>
+            <br>
+            <ul class="sidebar-menu">
+              <li><a href="dashboard.html"><i class="fa fa-tachometer"> Dashboard</i></a></li>
+              <li><a href="buttons.html"><i class="fa fa-desktop"> Buttons</i></a></li>
+              <li><a href="progress.html"><i class="fa fa-desktop"> Progress Bars</i></a></li>
+              <li><a href="form_component.html"><i class="fa fa-cogs"> Forms</i></a></li>
+              <li><a href="basic_tables.html"><i class="fa fa-th"> Data Tables</i></a></li>
+              <li><a href="gallery.html"><i class="fa fa-tasks"> Gallery</i></a></li>
+              <li><a href="blank.html"><i class="fa fa-book"> Login Page</i></a></li>
+            </ul>
+          </div>
+
+            <!-- COL-MD-10 -->
+            <!-- FORM COMPONENTS-->
+            <div class="col-md-10">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-xs-12 col-md-12">
+                    <h3><i class="glyphicon glyphicon-chevron-right"> Form Components</i></h3>
+                  </div>
+                </div>
+
+                <!-- Form Elements-->
+                <div class="row">
+                  <div class="white">
+                    <div class="col-xs-12 col-md-12">
+                     <h3><i class="glyphicon glyphicon-chevron-right"> Form Elements</i></h3>
+                    </div>
+
+                    <!--Default-->
+                    <div class="row">
+                      <div class="col-md-2">
+                        <h5>Default</h5>
+                      </div>
+                      <div class="col-md-10">
+                        <input type="text" class="form-control">
+                      </div>
+                    </div>
+                    <hr>
+
+                    <!-- Help Text-->
+                    <div class="row">
+                      <div class="col-md-2">
+                        <h5>Help Text</h5>
+                      </div>
+                      <div class="col-md-10">
+                        <input type="text" class="form-control">
+                        <span class="help-block"><h6>A block of help text that breaks onto a new line and may extend beyond one line.</h6></span>
+                      </div>
+                    </div>
+                    <hr>
+
+                    <!-- Rounder -->
+                    <div class="row">
+                      <div class="col-md-2">
+                        <h5>Rounder</h5>                  <!--NO SE VE REDONDO!!!! -->
+                      </div>
+                      <div class="col-md-10">
+                      <form class="form-search">
+                        <input type="text" class="form-control search-query">
+                      </form>
+                      </div>
+                    </div>
+                    <hr>
+
+                    <!-- Input focus -->
+                    <div class="row">
+                      <div class="col-md-2">
+                        <h5>Input Focus</h5>
+                      </div>
+                      <div class="col-md-10">
+                        <input class="form-control" id="focusedInput" type="text">
+                      </div>
+                    </div>
+                    <hr>
+
+                    <!-- Disabled -->
+                    <div class="row">
+                      <div class="col-md-2">
+                        <h5>Disabled</h5>
+                      </div>
+                      <div class="col-md-10">
+                        <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
+                      </div>
+                    </div>
+                    <hr>
+
+                    <!-- Placeholder -->
+                    <div class="row">
+                      <div class="col-md-2">
+                        <h5>Placeholder</h5>
+                      </div>
+                      <div class="col-md-10">
+                        <input class="form-control" type="text" placeholder="placeholder">
+                      </div>
+                    </div>
+                    <hr>
+
+                    <!-- Password -->
+                    <div class="row">
+                      <div class="col-md-2">
+                        <h5>Password</h5>
+                      </div>
+                      <div class="col-md-10">
+                        <input type="password" class="form-control">
+                      </div>
+                    </div>
+                    <hr>
+
+                    <!-- Static control -->
+                    <div class="row">
+                      <div class="col-md-2">
+                        <h5>Static Control</h5>
+                      </div>
+                      <div class="col-md-10">
+                        <form class="form-horizontal" role="form">
+                          <p class="form-control-static">email@ejemplo.com</p>
+                        </form>
+                      </div>
+                    </div>
+                    <hr>
+                  </div> <!--cierra la col-white-->
+                </div> <!--cierra el row -->
+
+                <!-- INLINE FORMS -->
+                <div class="row">
+                  <div class="white">
+                    <div class="col-md-12">
+                     <h3><i class="glyphicon glyphicon-chevron-right"> Inline Form</i></h3>
+                    </div>
+
+                    <!-- Forms -->
+                    <div class="row">
+                      <div class="col-md-12">
+                       <form class="form-inline">
+                        <input type="text" class="input-small" placeholder="Enter email">
+                        <input type="password" class="input-small" placeholder="Password">
+                        <button type="submit" class="btn">Sign in</button>
+                       </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- INPUT MESSAGES -->
+                <div class="row">
+                  <div class="white">
+                    <div class="col-md-12">
+                     <h3><i class="glyphicon glyphicon-chevron-right"> Input Messages</i></h3>
+                    </div>
+
+                    <!--Inpun with Success-->
+                    <div class="row">
+                      <div class="form-group has-success has-feedback">
+                        <label class="col-md-3 control-label" for="inputSuccess">Input with success</label>
+                        <div class="col-md-9">
+                          <input type="text" class="form-control" id="inputSuccess"> 
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+
+                    <!--Inpun with warning-->
+                    <div class="row">
+                      <div class="form-group has-warning has-feedback">
+                        <label class="col-md-3 control-label" for="inputWarning">Input with warning</label>
+                        <div class="col-md-9">
+                          <input type="text" class="form-control" id="inputWarning">
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+
+                    <!--Inpun with Error-->
+                    <div class="row">
+                      <div class="form-group has-error has-feedback">
+                        <label class="col-md-3 control-label" for="inputError">Input with error</label>
+                        <div class="col-md-9">
+                          <input type="text" class="form-control" id="inputError">
+                        </div>
+                      </div>
+                    </div>  
+                    <br> 
+
+                    <!--Inpun with info-->
+                    <div class="row">
+                      <div class="form-group has-info has-feedback">
+                        <label class="col-md-3 control-label" for="inputInfo">Input with info</label>
+                        <div class="col-md-9">
+                          <input type="text" class="form-control" id="inputInfo">
+                        </div>
+                      </div>
+                    </div>  
+                    <br>                    
+                  </div> <!--Cierre de white-->
+                </div> <!-- Cierre del row-->
+
+                <!-- CHECKBOXES, RADIOS & SELECTS -->
+                <div class="row">
+                  <div class="white">
+                    <div class="col-md-12">
+                     <h3><i class="glyphicon glyphicon-chevron-right"> Checkboxes, Radios & Selects</i></h3>
+                    </div>
+
+                    <!--Checkboxes-->
+                    <div class="row">
+                      <div class="container">
+                        <div class="col-md-12">
+                          <label class="checkbox">
+                            <input type="checkbox" value="">
+                            Option one is this and that—be sure to include why it's great
+                          </label>
+                           
+                          <label class="radio">
+                            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                            Option one is this and that—be sure to include why it's great
+                          </label>
+                          <label class="radio">
+                            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                            Option two can be something else and selecting it will deselect option one
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+
+                    <!--Inline-checkboxes-->
+                    <div class="row">
+                      <div class="container">
+                        <div class="col-md-12">
+                          <input type="checkbox" id="inlineCheckbox1" value="option1"> 1 
+                          <input type="checkbox" id="inlineCheckbox2" value="option2"> 2       <!--NO SE VE INLINE-->
+				          <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+
+                    <!--select-->
+                    <div class="row">
+                      <div class="col-md-12">
+                        <select class="form-control">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                        <br>
+                        <select multiple="multiple" class="form-control">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+                    <br>
+
+                  </div> <!--Cierre de white-->
+                </div> <!-- Cierre del row-->
+
+              </div> <!-- Cierra el container-->
+            </div> <!-- Cierra el col-mg-10 general-->
+
+          </div> <!-- Cierra el row general -->
+        </div> <!-- Cierra el container general -->
+      </section>
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common-scripts.js"></script>
+  </body>
+  </html>
